@@ -1,7 +1,7 @@
-#include <iostream>
+#include "BettingTree.hpp"
 
 int main() {
-  int x;
-  std::cin >> x;
+  BettingTree bt;
+  bt.printBest();
   return 0;
 }
