@@ -8,5 +8,5 @@ public:
   Action(Type type, int amount);
 
   static bool isValidAction(Action action, int stack, int wager, int callAmount,
-                            int minimumRasieSize);
+                            int minimumRaiseSize);
 };
